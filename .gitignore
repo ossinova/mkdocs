@@ -1,6 +1,5 @@
 build/
 dist/
-quinn.egg-info/
 .cache/
 tmp/
 .idea/
