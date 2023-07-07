@@ -1,0 +1,32 @@
+build/
+dist/
+quinn.egg-info/
+.cache/
+tmp/
+.idea/
+.DS_Store
+
+.coverage*
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+.pytest_cache/
+
+# PyVenv
+.env
+.venv
+
+# Linters cache
+.mypy_cache
+.ruff_cache
+
+# MKDocs
+site
+
+# VSCode
+.vscode
+
+# Emacs
+.dir_locals.el
