@@ -1,8 +1,8 @@
-site_name: Example Documentation
+site_name: Example MKDocs Documentation
 site_description: "Automatic documentation from sources, for MkDocs."
 # edit_uri: "blob/master/docs/"
 site_dir: "site"
-watch: [mkdocs.yml, README.md, example/functions]
+watch: [mkdocs.yml, README.md, src/functions]
 copyright: Copyright &copy; 2023 Oscar Dyremyhr
 
 nav:
@@ -69,7 +69,7 @@ plugins:
       default_handler: python
       handlers:
         python:
-          paths: [example]
+          paths: [src]
           import:
           - https://docs.python.org/3/objects.inv
           - https://installer.readthedocs.io/en/stable/objects.inv  # demonstration purpose in the docs
